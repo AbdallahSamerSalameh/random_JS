@@ -1276,3 +1276,425 @@
 
 
 
+//---------------------------------------------------JS-Functions----------------------------------------------------------------//
+//---------------------------------------------------JS-Functions----------------------------------------------------------------//
+
+
+
+
+// var array=[1,-3,77,9,47,-67];
+// function small(array){
+//     var arr=array, min=arr[0];
+//     for (var i=1; i<arr.length; i++){
+//         min = Math.min(min,arr[i]);
+//     }
+//     return min;
+// }
+// var min = small(array);
+// console.log(min);
+
+// var string = "hello brother";
+// function arrange(string){
+//     var str=string.split("").sort().join("");
+//     return str;
+// }
+// var str = arrange(string);
+// console.log(str);
+
+// var number = 8;
+// function fact(number){
+//     var num=number;
+//     for (i=num-1; i>1; i--){
+//         num=num*i;
+//     }
+//     return num;
+// }
+// var num= fact(number);
+// console.log(num);
+
+// var odd=9, even=10;
+// function oddoreven(number){
+//     if (number%2==0){
+//         console.log("Even");
+//     } else{
+//         console.log("Odd");
+//     }
+// }
+// oddoreven(odd);
+// oddoreven(even);
+// oddoreven(5);
+// oddoreven(2);
+
+// var array=[0,1,2,3,4,5,6,7,8,9];
+// function even(array){
+//     var arr=array,eve=[];
+//     for(var i=0; i<arr.length; i++){
+//         if(arr[i] %2 == 0){
+//             eve.push(arr[i]);
+//         }
+//     }
+//     return eve;
+// }
+// var arr=even(array);
+// console.log(arr);
+
+// var array=[1,"5", "ali", 1,5,0,345,"78", "brother"];
+// function nums(array){
+//     var arr=array, newarr=[];
+//     for(var i=0; i<arr.length; i++){
+//         if (isNaN(arr[i] * 1) == false){
+//             newarr.push(arr[i]*1);
+//         }
+//     }
+//     console.log(newarr);
+// }
+// nums(array);
+// nums([1,7,4545,-875,"343", "ali", 1, "brp", 12, 45, "ali"]);
+
+// var number=8;
+// function summ(number){
+//     var num=number;
+//     for (var i=num-1; i>0; i--){
+//         num= num+i;
+//     }
+//     return num;
+// }
+// console.log(summ(number));
+// console.log(summ(4));
+
+// var array=[1,45,96,-3,13,199];
+// function all(array){
+//     var arr=array, min=arr[0], max=arr[0], avg=arr[0], len=arr.length;
+//     for(var i=1; i<arr.length; i++){
+//         min=Math.min(min,arr[i]);
+//         max=Math.max(max,arr[i]);
+//         avg=avg+arr[i];
+//     }
+//     avg=avg/len;
+//     return [min, max, len, avg];
+// }
+// var arr=all(array);
+// console.log(arr);
+// var arr1= all([1,45,74,976,235,-85,445]);
+// console.log(arr1);
+// var arr2=all([7,13,3,77,100]);
+// console.log(arr2);
+
+// var year = 1989;
+// function roman(number){
+//     var num=number, rom="";
+//     while(num != 0){
+//         if (num-1000 >= 0){
+//             rom = rom+"M";
+//             num=num-1000;
+//         } else if (num-900 >= 0){
+//             rom = rom+"CM";
+//             num=num-900;
+//         } else if (num-500 >= 0){
+//             rom = rom+"D";
+//             num=num-500;
+//         } else if (num-400 >= 0){
+//             rom = rom+"CD";
+//             num=num-400;
+//         } else if (num-100 >= 0){
+//             rom = rom+"C";
+//             num=num-100;
+//         } else if (num-90 >= 0){
+//             rom = rom+"XC";
+//             num=num-90;
+//         } else if (num-50 >= 0){
+//             rom = rom+"L";
+//             num=num-50;
+//         } else if (num-40 >= 0){
+//             rom = rom+"XL";
+//             num=num-40;
+//         } else if (num-10 >= 0){
+//             rom = rom+"X";
+//             num=num-10;
+//         } else if (num-9 >= 0){
+//             rom = rom+"IX";
+//             num=num-9;
+//         } else if (num-5 >= 0){
+//             rom = rom+"V";
+//             num=num-5;
+//         } else if (num-4 >= 0){
+//             rom = rom+"IV";
+//             num=num-4;
+//         } else if (num-1 >= 0){
+//             rom = rom+"I";
+//             num=num-1;
+//         }
+//     }
+//     return rom;
+// }
+// var num= roman(year);
+// console.log(num);
+// console.log(roman(1975));
+// console.log(roman(345));
+// console.log(roman(13496));
+// console.log(roman(3546));
+// console.log(roman(2002));
+
+// var string ="Hello there, we are studying coding";
+// function count(string){
+//     str= string.split(" ");
+//     return str.length;
+// }
+// var str= count(string);
+// console.log(str);
+// console.log(count("Hello there, what are you doing here"));
+
+// var array=[3, 6, 34, 98, 23];
+// function multi(array){
+//     arr=array, len=arr.length;
+//     for (var i=0; i<arr.length; i++){
+//         arr[i] = arr[i]*len;
+//     }
+//     return arr;
+// }
+// var arr=multi(array);
+// console.log(arr);
+// console.log(multi([2,3,7,1,2,3,55,6]));
+
+// var str1 = "CodingOrangeShool", str2="Ac", str3="hool" , str4="ange";
+// function check(str1, str2){
+//     var org=str1, end=str2, olen=org.length, elen=end.length;
+//     if (org.lastIndexOf(end)== olen-elen){
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// var chk = check(str1,str2);
+// console.log(chk); 
+// var chk = check(str1,str3);
+// console.log(chk); 
+// var chk = check(str1,str4);
+// console.log(chk); 
+// var chk = check("well, hello there brother","her");
+// console.log(chk); 
+// var chk = check("well, hello there brother","llo");
+// console.log(chk); 
+
+// var string = "Coding";
+// function repeat(string){
+//     var str=[];
+//     for (var i=0; i<string.length; i++){
+//         str.push(string[i]);
+//         str.push(string[i]);
+//     }
+//     return str.join("");
+// }
+// var str = repeat(string);
+// console.log(str);
+
+// var array =['ali', 'mazen', 'ahmad','khaled','brother'];
+// function find(array, string){
+//     if (array.indexOf(string) != -1){
+//         return array.indexOf(string);
+//     } else{
+//         console.log("This item is not in your array");
+//         return -1;
+//     }
+// }
+// // console.log(array.indexOf("b"));
+// console.log(find(array,"ali"));
+// console.log(find(array,"ahmad"));
+// console.log(find(array,"bro"));
+
+// var array=[1,-19,56,7,-1,-5,-6,8,-11,32];
+// function summ(array){
+//     var sum=0;
+//     for (var i=0; i<array.length; i++){
+//         sum=sum+Math.abs(array[i]);
+//     }
+//     return sum;
+// }
+// var sun= summ(array);
+// console.log(sun);
+
+
+
+
+//---------------------------------------------------JS-IF----------------------------------------------------------------//
+//---------------------------------------------------JS-IF----------------------------------------------------------------//
+
+
+
+
+// var age=14;
+// if (age>18){
+//     console.log("You are an adult");
+// } else {
+//     console.log("You are NOT an adult");
+// }
+// var age2=19;
+// if (age2>18){
+//     console.log("You are an adult");
+// } else {
+//     console.log("You are NOT an adult");
+// }
+// var age3=18;
+// if (age3>18){
+//     console.log("You are an adult");
+// } else {
+//     console.log("You are NOT an adult");
+// }
+
+// var score=10;
+// function sco(num){
+//     if (num<=50){
+//         console.log("You failed");
+//     }
+// }
+// sco(score);
+// var score=70;
+// sco(score);
+// var score=50;
+// sco(score);
+
+// var name1="john", name2="ali";
+// function isjon(name){
+//     if (name ==="john"){
+//         console.log("Hello " + name);
+//     }
+// }
+// isjon(name1);
+// isjon(name2);
+
+// var day1="Sunday", day2="Monday", day3="Saturday",day4="Friday";
+// function isweek(day){
+//     if (day !="Friday" && day != "Saturday"){
+//         console.log("Week day");
+//     } else{
+//         console.log("WEEKEND");
+//     }
+// }
+// isweek(day1);
+// isweek(day2);
+// isweek(day3);
+// isweek(day4);
+
+// var a=1,b=4;
+// function even(num){
+//     if (num%2==0){
+//         console.log("Even number");
+//     }
+// }
+// even(a);
+// even(b);
+
+// var a="a", b="1", c="A";
+// function ischar(char){
+//     if (isNaN(char*1) == true){
+//         console.log("Its a char");
+//     }
+// }
+// ischar(a);
+// ischar(b);
+// ischar(c);
+
+// var list1=1, list2=[1,5,2], list3=[1,'a',4], list4="4g", list5=[1];
+// function islist(list){
+//     if (list.join != undefined){
+//         console.log("It is an array");
+//     } else {
+//         console.log("NOT an array");
+//     }
+// }
+// // console.log(list5.join)
+// islist(list1);
+// islist(list2);
+// islist(list3);
+// islist(list4);
+// islist(list5);
+// //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@222
+// // function islist(list){
+// //     if (Array.isArray(list)==true){
+// //         console.log("It is an array");
+// //     } 
+// //      else {
+// //         console.log("NOT an array");
+// //     }
+// // }
+// // islist(list1);
+// // islist(list2);
+// // islist(list3);
+// // islist(list4);
+// // islist(list5);
+
+// var a=1, b=-1, c=23, d=-23;
+// function posi(num){
+//     if (num ==Math.abs(num)){
+//         console.log("Positive");
+//     } else{
+//         console.log("Negative");
+//     }
+// }
+// posi(a);
+// posi(b);
+// posi(c);
+// posi(d);
+
+// var a=1, b=-1, c=23, d=-23;
+// function posi(num){
+//     if (num ==Math.abs(num)){
+//         console.log("Positive");
+//     } else{
+//         console.log("Negative");
+//     }
+// }
+// posi(a);
+// posi(b);
+// posi(c);
+// posi(d);
+
+// var a=1,b=4,c=9;
+// function multi3(num){
+//     if (num%3==0){
+//         console.log("Multi of 3");
+//     } else{
+//         console.log("NOT Multi of 3");
+//     }
+// }
+// multi3(a);
+// multi3(b);
+// multi3(c);
+
+// var a=2.8, b=3.0, c=3.7;
+// function gpa(num){
+//     if(num>=3.0){
+//         console.log("You have a good GPA");
+//     } else{
+//         console.log("try harder");
+//     }
+// }
+// gpa(a);
+// gpa(b);
+// gpa(c);
+
+// var a="4fdie", b="gsdidvc8d", c="qgvdgk", d="gqkhfg23o487tr";
+// function pass(pas){
+//     if (pas.length>=8){
+//         console.log("You password is strong");
+//     } else{
+//         console.log("try longer password");
+//     }
+// }
+// pass(a);
+// pass(b);
+// pass(c);
+// pass(d);
+
+// var age1=12, age2=56, age3=88;
+// function work(age){
+//     if (age>=18 && age<=65){
+//         console.log("You are Of a working age");
+//     } else{
+//         console.log("You are NOT Of a working age");
+//     }
+// }
+// work(age1);
+// work(age2);
+// work(age3);
+
