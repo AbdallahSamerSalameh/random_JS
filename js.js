@@ -1698,3 +1698,185 @@
 // work(age2);
 // work(age3);
 
+// var col1="red", col2="green", col3="blue", col4="yellow", col5="orange";
+// function isprim(str){
+//     if(str=="red" || str=="green" || str=="blue"){
+//         console.log("is Primarry");
+//     } else{
+//         console.log("NOT Primarry");
+//     }
+// }
+// isprim(col1);
+// isprim(col2);
+// isprim(col3);
+// isprim(col4);
+// isprim(col5);
+
+// function isnum(num){
+//     if (isNaN(num*1)==false){
+//         console.log("anumber");
+//     } else{
+//         console.log("NOT a number");
+//     }
+// }
+// isnum(1);
+// isnum("3");
+// isnum("f");
+// isnum("gf");
+// isnum(456);
+// isnum(-56);
+// isnum("0.654");
+// isnum("3fg");
+
+
+
+
+//---------------------------------------------------JS-ARRYS----------------------------------------------------------------//
+//---------------------------------------------------JS-ARRYS----------------------------------------------------------------//
+
+
+
+//IMPORTANT PLEASR SEE THIS
+// array=[1,2,3,4,5];
+// array.forEach(function(array){
+//     console.log(array);
+// });
+
+// array[1,3,5,7,9];
+// var arr=array.map(function(array){
+//     return array*2;
+// });
+// console.log(arr);
+
+// var array=[1,2,3,4,5,6,7,8,9,10];
+// var arr= array.filter(function(array){
+//     return array%2==0;
+// });
+// console.log(arr);
+
+// var array=[1,4,9,3,6,2,0,12];
+// var arr= array.reduce(function(sum, current){
+//     return sum+current;
+// },0);
+// console.log(arr);
+
+// var array=['apple', 'car', 'banana','air'];
+// console.log(array.sort());
+
+// var array=['apple', 'car', 'banana','air'];
+// console.log(array.reverse());
+
+// var array=['apple', 'car', 'banana','air'];
+// var array2=[1,4,7,9,12,-87];
+// console.log(array.concat(array2));
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// function extract(array, start, end){
+//     var arr= array.slice(start, end);
+//     console.log(arr);
+//     return arr;
+// }
+// var arr=extract(array,2,4);
+// console.log(arr);
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// function extract(array, start, end){
+//     var arr= array.splice(start, end);
+//     console.log(arr);
+//     return arr;
+// }
+// var arr=extract(array,2,4);
+// console.log(arr);
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// function find(num){
+//     var arr= array.indexOf(num);
+//     // console.log(arr);
+//     return arr;
+// }
+// var arr=find(5);
+// console.log(arr);
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// function stringing(array){
+//     var arr= array.join("");
+//     console.log(arr);
+//     return arr;
+// }
+// var arr=stringing(array);
+// console.log(arr);
+
+// var array="123456789";
+// function listing(array){
+//     var arr= array.split("");
+//     console.log(arr);
+//     return arr;
+// }
+// var arr=listing(array);
+// console.log(arr);
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// function tall(array){
+//     var arr= array.length;
+//     console.log(arr);
+//     return arr;
+// }
+// var arr=tall(array);
+// console.log(arr);
+
+// var arrays=[1,2,3,4,5,6,7,8,9];
+// function print(arrays){
+//   for (var array of arrays){
+//     console.log(array)
+//   }
+// }
+// print(arrays);
+
+// var arrays=[1,2,3,4,5,6,7,8,9];
+// function print(arrays){
+//   for (var index in arrays){
+//     console.log(arrays[index])
+//   }
+// }
+// print(arrays);
+
+// var array=[1,2,3,4,5,6,7,8,9];
+// var string="123456789";
+// function isarr(array){
+//     if (Array.isArray(array)){
+//         console.log("Is an array");
+//     } else{
+//         console.log("Is NOT an array");
+//     }
+// }
+// isarr(array);
+// isarr(string);
+
+// var obj={0:1, 1:"A", 2:"df",3:56, length:4};
+// function toarr(obj){
+//     var arr=Array.from(obj);
+//     console.log(arr);
+// }
+// toarr(obj);
+
+// var array=Array.of(1,'ali',3,4,'bro');
+// console.log(array);
+
+// var array=[1,2,3,4,5];
+// var arr=array.fill(0,0,3);
+// console.log(arr);
+
+// var array = [1, 2, 3, 4, 5];
+// array.copyWithin(1, 0, 1);
+// array.copyWithin(2, 0, 1);
+// console.log(array); 
+
+
+
+
+//---------------------------------------------------JS-LOOPS----------------------------------------------------------------//
+//---------------------------------------------------JS-LOOPS----------------------------------------------------------------//
+
+
+
+

@@ -78,3 +78,15 @@ document.getElementById("clear").addEventListener("click", function() {
         txtElement.innerText = "";
     }
 });
+document.getElementById("color").addEventListener("click", function() {
+    var txtElement = document.getElementById("txt");
+    txtElement.style.color == document.getElementById("collor").value;
+});
+document.getElementById("bgcolor").addEventListener("click", function() {
+    var txtElement = document.getElementById("bg");
+    txtElement.style.color == document.getElementById("bgcollor").value;
+});
+document.getElementById("fsize").addEventListener("click", function() {
+    var txtElement = document.getElementById("txt");
+    txtElement.style.fontSize == document.getElementById("fontsize").value;
+});
