@@ -1880,3 +1880,148 @@
 
 
 
+// for(var i=1; i<=10;i++){
+//     console.log(i);
+// }
+
+// var i=1;
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+
+// var array=[1,2,3,4,5];
+// for(var i=0; i<array.length; i++){
+//     console.log(array[i]);
+// }
+
+// for(var i=1; i<=10;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+// var counter=0;
+// for(var i=1; i<=10;i++){
+//    counter=counter+i; 
+// }
+// console.log(counter);
+
+// var array=[1,23,5,75,8,976];
+// var max=array[0];
+// for(var i=0; i<array.length; i++){
+//     max = Math.max(max,array[i]);
+// }
+// console.log(max);
+
+// var array=[1,23,5,75,8,976];
+// var min=array[0];
+// for(var i=0; i<array.length; i++){
+//     max = Math.min(min,array[i]);
+// }
+// console.log(max);
+
+// var array=[1,23,5,75,8,976];
+// var avg=array[0];
+// for(var i=1; i<array.length; i++){
+//     avg=avg+array[i];
+//     if(i==array.length-1){
+//         avg=avg/array.length;
+//     }
+// }
+// console.log(avg);
+
+// var a=5;
+// var b=1;
+// for (var i =a; i>=1; i-- ){
+//     b=b*i;
+// }
+// console.log(b);
+
+// var lim=10;
+// var fapo=[0,1];
+// for(var i=2; ; i++){
+//     fapo.push(fapo[i-2]+fapo[i-1]);
+//     if (fapo[i]>=lim){
+//         break;
+//     }
+//     console.log(fapo.join(" "));
+// } 
+
+// //using chatgpt because i really dont know
+// function isPrime(num) {
+//     if (num <= 1) return false;
+//     if (num <= 3) return true;
+//     if (num % 2 === 0 || num % 3 === 0) return false;
+//     for (let i = 5; i * i <= num; i += 6) {
+//         if (num % i === 0 || num % (i + 2) === 0) return false;
+//     }
+//     return true;
+// }
+// function printPrimes(limit) {
+//     for (let i = 2; i <= limit; i++) {
+//         if (isPrime(i)) {
+//             console.log(i);
+//         }
+//     }
+// }
+// printPrimes(20); 
+
+// var num=5;
+// for (var i=0; i<= 12; i++){
+//     console.log(num +" X " + i + " = " + num*i);
+// }
+
+// var array=[[1,2,3],[4,5,6],[7,8,9]]
+// // console.log(array.join(",").split(",").join(" "));
+// for (var i=0; i<array.length;i++){
+//     for(var j=0; j<array[i].length; j++){
+//         console.log(array[i][j]);
+//     }
+// }
+
+// var array=[1,2,3,4,5];
+// for(var i=array.length-1; i>=0; i--){
+//     console.log(array[i]);
+// }
+
+// var array=[1,2,3,4,5,6,7,8];
+// var range=[2,4];
+// for(var i=range[0]; i<=range[1]; i++){
+//     console.log(array[i]);
+// }
+
+// var array=[1,2,3,4,5,6,7,8];
+// var step=2;
+// for(var i=0; i<array.length; i=i+step){
+//     console.log(array[i]);
+// }
+
+// var array=[1,2,3,4,5,6,7,8];
+// var num=5;
+// for(var i=0; i<array.length; i++){
+//     if(array[i]==num){
+//         console.log(true);
+//         break;
+//     } 
+// }
+
+// var array=[1,2,3,1,2,5,3,2,4,1,6,1,2,1,8,6,9,12,1];
+// var num=1;
+// var freq=0;
+// for(var i=0; i<array.length; i++){
+//     if(array[i]==num){
+//         freq++;
+//     } 
+// }
+// console.log(freq);
+
+
+
+
+//---------------------------------------------------JS-OBJECTS----------------------------------------------------------------//
+//---------------------------------------------------JS-OBJECTS----------------------------------------------------------------//
+
+
+
+
