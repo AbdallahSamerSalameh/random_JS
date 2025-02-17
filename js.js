@@ -2025,3 +2025,144 @@
 
 
 
+// var info={
+//     name: "Abdaalah",
+//     age: 22
+// }
+// console.log("My name is " + info.name +"and my age is "+info.age);
+// console.log(info);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22
+// }
+// // console.log("My name is " + info.name +"and my age is "+info.age);
+// // console.log(info);
+// info.gender = "male";
+// console.log("My name is " + info.name +"and my age is "+info.age +" and i am a "+ info.gender);
+// console.log(info);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22
+// }
+// // // // console.log("My name is " + info.name +"and my age is "+info.age);
+// // // // console.log(info);
+// // // info.gender = "male";
+// // // console.log("My name is " + info.name +"and my age is "+info.age +" and i am a "+ info.gender);
+// // // console.log(info);
+// // info["gender"]="male";
+// // console.log("My name is " + info.name +"and my age is "+info.age +" and i am a "+ info.gender);
+// // console.log(info);
+// console.log(info.name);
+// console.log(info["age"]);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22
+// }
+// console.log(info.name);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22
+// }
+// console.log(info["name"]);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// for(var data in info){
+//     console.log(info[data]);
+// }
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// var array=Object.keys(info);
+// console.log(Object.keys(info));
+// console.log(array);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// var array=Object.values(info);
+// console.log(Object.keys(info));
+// console.log(array);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// var array=Object.entries(info);
+// console.log(Object.entries(info));
+// console.log(array);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// var moreinfo={
+//     edu: true,
+//     uni: "JUST",
+//     jobtitle: "Web dev",
+//     salary: 20000
+// }
+// // var allinfo= Object.assign({}, info, moreinfo);
+// // console.log(allinfo);
+// // console.log(Object.assign({}, info, moreinfo));
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// console.log(info);
+// info.salary=2000;
+// console.log(info);
+// Object.freeze(info);
+// console.log(info);
+// info.edu=true;
+// console.log(info);
+// info.name="Ali";
+// console.log(info);
+
+// var info={
+//     name: "Abdaalah",
+//     age: 22,
+//     gender: "male",
+//     status: "single"
+// }
+// console.log(info);
+// info.salary=2000;
+// console.log(info);
+// Object.seal(info);
+// console.log(info);
+// info.edu=true;
+// console.log(info);
+// info.name="Ali";
+// console.log(info);
+
+
+
+
+//---------------------------------------------------JS-DOM----------------------------------------------------------------//
+//---------------------------------------------------JS-DOM----------------------------------------------------------------//
+
+
+
+
